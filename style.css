@@ -1,1 +1,48 @@
-Interview.html2
+body {
+	background-color: #00B0FF;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+   height: 50px;
+}
+
+.bouton {
+	display:block;
+    width:150px;
+    line-height:50px;
+    text-align:center;
+    vertical-align:middle;
+    color: #D50000;
+    text-decoration:none;
+}
+
+.container ul {
+	list-style-type: none;
+}
+
+.container {
+	 display: grid;
+  grid-template-columns: 1fr;
+  /*grid-gap: 10px;*/
+  width: 80%;
+  margin: 0 10%;
+background-color: #ccdba2;
+}
+
+.container nav{
+  background-color: #000000;
+  text-align: center;
+  font-size: 16px;
+}
+
+.container2{
+	background-color:#C51162;
+	justify-content: space-around;
+	display: wrap;
+}
+
+h2 {
+	text-align: center;
+}
