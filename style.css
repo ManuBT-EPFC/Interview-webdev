@@ -1,15 +1,23 @@
-body {
-	background-color: #00B0FF;
+body{
+  background-color: green;
+}
+nav ul #link {
+background-color: yellow;
+  
+}
+#header{
+  background-color: blue;
 }
 
-.list {
-  display: flex;
-  justify-content: space-around;
-   height: 50px;
+img {
+   background-position: bottom center;
+   height: 300px;
+   width:300px
+   background-position: center;
 }
-
+}
 .bouton {
-	display:block;
+  display:block;
     width:150px;
     line-height:50px;
     text-align:center;
@@ -19,11 +27,11 @@ body {
 }
 
 .container ul {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 .container {
-	 display: grid;
+   display: grid;
   grid-template-columns: 1fr;
   /*grid-gap: 10px;*/
   width: 80%;
@@ -38,11 +46,11 @@ background-color: #ccdba2;
 }
 
 .container2{
-	background-color:#C51162;
-	justify-content: space-around;
-	display: wrap;
+  background-color:#C51162;
+  justify-content: space-around;
+  display: wrap;
 }
 
 h2 {
-	text-align: center;
+  text-align: center;
 }
