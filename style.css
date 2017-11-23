@@ -1,20 +1,62 @@
 body{
   background-color: green;
 }
-nav ul #link {
-background-color: yellow;
-  
+ #header{
+  background-color: yellow;
 }
-#header{
+
+.nav{
+  display: flex;
+  justify-content: space-around;
+
+}
+ li a{
+  color: blue;
+  font-size: 25px;
+  list-style-type: none;
+ }
+
+ #container{
+    background-color: blue;
+    width:60%;
+    display:flex;
+    justify-content:auto;
+    margin-left: 10%;
+    margin-right: 10%;
+
+ }
+
+section{
   background-color: blue;
 }
 
-img {
-   background-position: bottom center;
-   height: 300px;
-   width:300px
-   background-position: center;
+h2 {
+  font-size: 60px;
+  font-family: "Fontdiner Swanky", cursive;
+  text-align: center;
+  margin: auto;
 }
+
+li {
+  text-align: center;
+  list-style-type: none;
+  font-size: 40px;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+  color: red;
+}
+
+p {
+  text-align: center;
+  color: black;
+}
+img {
+   width:400px;
+   margin-left: 20%;
+   margin-right: 20%;
+
+ }
+section {
+
 }
 .bouton {
   display:block;
