@@ -11,10 +11,15 @@ html{
 body{
 	width: 100%;
 	height: 100%;
-	background-image: url("https://images.pexels.com/photos/316093/pexels-photo-316093.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+	background-image: url("https://images.pexels.com/photos/97077/pexels-photo-97077.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+     }
+ h1{
+ 	font-family: 'UnifrakturCook', cursive;
+ 	font-size: 50px;
+ 	color:white;
 	}	
 
 header{
@@ -30,6 +35,8 @@ nav {
 	height: auto;
 	display:flex;
 	justify-content: center;
+	
+
 }
 nav ul {
 	display: flex;
@@ -40,15 +47,20 @@ nav ul {
 	list-style-type: none;
 	width: 50%;
 	height: auto;
+	font-size:28px;
+	font-family: 'UnifrakturMaguntia', cursive; 
+
 	
 }
 
 nav li{
 }
 
+
 a {
 	color: red;
 	text-decoration: none;
+
 }
 section{
 	width: 100%;
@@ -68,15 +80,12 @@ article{
 	color: white;
 	width:75%;
 	height: 200px;
-	border: 2px red solid;
+	border: 2px grey solid;
 	margin-bottom: 10px;
 }
-
-h2{
-	text-align: right;
-}
-p{
-	text-align: right;
+ h2 {
+	 center;
+	color: solid black;
 }
 
 img {
@@ -88,7 +97,7 @@ img {
 .images{
 	width:33%;
 	height: 100%;
-	border-right: 2px red solid;
+	border-right: 2px grey solid;
 }
 
 .contenu {
@@ -116,29 +125,32 @@ img {
 }
 
 #reverse p, #reverse h2 {
-	text-align: left;
+	text-align: center;
 }
 
 #reverse .images{
-	border-left: 2px red solid;
+	border-left: 2px grey solid;
 	border-right: none;
 }
-
-#entreprise {
-	height: 250px;
-}
-
-#interview{
-	height: 100%;
-}
+.contenu-txt 
 
 
-.contenu-txt ul{
+ul{
+	display:flex;
+	justify-content: stretch;
+	flex-direction: right;
+    border: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 200px;
 	
 }
+
 .contenu-txt h2{
 	 
  }
 .contenu-txt h2{
-	
-}
+
+
+
