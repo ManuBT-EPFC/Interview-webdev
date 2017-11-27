@@ -32,7 +32,7 @@ header{
 	height:auto;
 
 }
-nav ul {
+/*nav ul {
 	display: flex;
 	justify-content: center;
 	background-color: transparent;
@@ -42,9 +42,13 @@ nav ul {
 	width: 50%;
 	height: auto;
 	font-size:28px;
-	font-family: 'Fontdiner Swanky', cursive;
+	font-family: 'Fontdiner Swanky', cursive;*/
 	
-
+#mainnav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
 	
 }
 
