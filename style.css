@@ -1,195 +1,56 @@
-*{
-	padding: 0;
-	margin: 0;
+body {
+	margin:0;
 }
 
-html{
-	width: 100%;
-	height: 100%;
-}
-
-body{
-	width: 100%;
-	height: 100%;
-	background-image: url("https://images.pexels.com/photos/479453/pexels-photo-479453.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	background-position: center;
-     }
- h1{
- 	font-family: 'Eater', cursive;
- 	font-size: 40px;
- 	color:black;
-	}	
-
-header{
-	display: flex;
-	justify-content: center;
-	color: red;
-	background-color: transparent;
+#banner1 {
+	display:block;
+	background-color:#D50000;
+	height:50px;
 	width:100%;
-	height:auto;
-
 }
-nav {
 
+#menu {
+    width:100%;
+    height:100px;
+    position:relative;
+    background-color:#FFFF00; 
 }
-nav ul {
-	
-	background-color: transparent;
-	margin-bottom:20px;
-	margin-top:20px;
+
+#menu ul {
+	float: left;
+	left: 50%;
+	position: relative;
+	padding-top: 15px;
+	margin-left: -60px;
+}
+
+#menu ul li {
+	float: left;
 	list-style-type: none;
-     font-size:28px;
-	font-family: 'Fontdiner Swanky', cursive;
-}
-	
-	
-
-nav li{
-		display: inline-block;
-	text-align: center;
-	justify-content: center;
-	margin-left: auto;
-	font-family: 'Aclonica', sans-serif;
-	border:dotted;
-}
-
-
-a {
-	color: green;
-	text-decoration: none;
-
-}
-section{
-	width: 100%;
-	display:flex;
-	justify-content: center;
-	flex-wrap: wrap; 
-}
-
-footer{
-	margin-top: 50px;
-}
-
-article{
-	display: flex;
-	background-color: transparent;
-	color: black solid;
-	width:75%;
-	height: auto;
-	border: 2px black solid;
-	margin-bottom: 20px;
+	margin-left: 20px;
 	position:relative;
-	float:center;
-}
- h2 {
-	width:28%;
-	font-size:16px;
-    font-family: 'Fontdiner Swanky', cursive;
-    color:red;
-    vertical-align: : center;
+	left: -50%;
 }
 
-#qui {
+#menu ul li a {
 	text-align: center;
-	color:black;
-	font-family: 'Almendra SC', serif;
-	
-}
-#que {
-	color:black;
-	font-family: 'Almendra SC', serif;
-	text-align: center;
-	
-}
-#quoi{
-	color:black;
-	font-family: 'Almendra SC', serif;
-	text-align:center;
-}
-img {
-	width: 100%;
-	height: 100%;
+	padding-top: 10px;
+	display: inline-block;
+	height:30px;
+	width:100px;
+	color:yellow;
+	background-color:red; 
+    text-decoration: none;
 }
 
-.images{
-	width:33%;
-	height: 100%;
-	border-right: 2px grey solid;
+#menu ul li a:hover {
+      color:#D50000;
+      background-color:#FFFF00;
 }
 
-.contenu {
+#banner2 {
+	display:block;
+	background-color:#D50000;
+	height:50px;
 	width:100%;
-	height: 100%;
-	display:flex;
-	flex-direction: column;
-	flex-wrap: wrap;	
 }
-
-
-/*     */
-.contenu-txt{
-	width: 66%;
-	height:200%;
-	position:center; 
-}
-
-.conteneur{
-	width:100%;
-	height:100%;
-	display: wrap;
-	flex-direction: center;
-}
-
-#reverse{
-	flex-direction: row-reverse;
-}
-
-#reverse p, #reverse h2 {
-	text-align: center;
-}
-
-#reverse .images{
-	border-left: 2px grey solid;
-	border-right: none;
-}
-
-#interview {
-	height:auto;
-	list-style-type: none;
-}
-
-#interview .contenu{
-	margin-left: 25px;
-}
-
-#interview .contenu-txt{
-	width:100%;
-	height: auto;
-}
-/*.contenu-txt {
-	flex-flow: row wrap;
-	justify-content: space-between; 
-	border-height: 300px;
-	border-width:300px;
-}*/
-
-
-
-ul{
-	display:flex;
-	justify-content: stretch;
-	flex-direction: right;
-    border: 100px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 20px;
-    padding-right: 200px;
-	
-}
-
-.contenu-txt h2{
-	 
- }
