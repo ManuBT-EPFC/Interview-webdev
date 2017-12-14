@@ -9,6 +9,14 @@ body {
 	width:100%;
 }
 
+ h1{
+	text-align:center;
+	margin-top:0px;
+	color:#FFFF00;
+	font-family: 'Great Vibes', cursive;
+
+}
+
 #menu {
     width:100%;
     height:100px;
@@ -48,9 +56,67 @@ body {
       background-color:#FFFF00;
 }
 
+
 #banner2 {
 	display:block;
 	background-color:#D50000;
 	height:50px;
 	width:100%;
+}
+
+q {
+	font-family: 'Rock Salt', cursive;
+	color:#FFFF00;
+	bottom: :10px;
+	text-align:center;
+}
+
+#banner3 {
+	width:100%;
+    height:800px;
+    position:relative;
+    background-color:#FFFF00;  
+    border-style:solid;
+    border-color:#D50000; 
+}
+   
+
+
+h2 {
+	color:#D50000;
+	margin-top:auto ;
+	text-align: center;
+	background-color: #FFFF00; 
+	color: :#D50000;
+	padding-top: 50px;
+	font-family: 'Zilla Slab Highlight', cursive;
+}
+
+ #pi p {
+	text-align: center;
+	color:#D50000;
+	
+}
+
+#pi p {
+	text-align: center;
+	color:#D50000;
+}
+
+#footer {
+	padding-top: 20px;
+	text-align: center;
+	display:block;
+	background-color:#D50000;
+	height:50px;
+	margin:auto;
+}
+
+#footer p {
+	color:#D50000;
+	background-color:#FFFF00; 
+	position: relative;
+	padding-top: 10px; 
+	text-align: center;
+
 }
